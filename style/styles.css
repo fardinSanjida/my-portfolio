@@ -1,4 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+#name{
+    font-size: 45px;
+    font-weight: 800;
+}
 .color{
   
     color: #FD6E0A;
+} 
+
+header{ 
+    background-color: #FFF8F3; 
+    background: url(../images/developer.png), url(../images/header_bg.png); 
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
+    /* 38px 71px 25px 24px */
+}
+
+nav{
+     display: flex;
+    justify-content: space-between;
+    width: 71%;
+    max-width: 1140px;
+    padding-top: 50px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+#more{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    color: 474747;
+    font-size: 20px;
+     align-items: center; 
+}
+
+.banner{
+    display: flex;
+    margin:  46px 37px 0 230px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-image img{
+    width: 584px;
+    vertical-align: middle;
+}
+
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #474747;
+}
+
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* shared section */
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.call-btn{
+    padding: 18px 35px;
+    border: 1px #FD6E0A solid;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFF8F3; 
+    cursor: pointer;
+}
+
+.about-me{
+    margin: 130px 230px ;
+    width: 1140px;
+    background-color: hsl(25, 100%, 98%);
+    border-radius: 10px;
+    border: 1px hsl(25, 100%, 98%) solid;
+   
+}
+
+.details{
+    width: 827px;
+    padding: 113px 157px;
+    justify-content: center;
+    text-align: center;
+}
+
+.details h3{
+    font-size: 35px;
+    font-weight: bold;
+   margin-bottom: 30px;
+   color: #181818;
+}
+
+.details p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:#757575 ;
+     
+}
+
+.information p{
+    font-size: 18px;
+    margin-bottom: 1px;
+    color:#757575 ;
+     
+}
+
+
+.information {
+    display: flex;
+    width: 782px;
+    justify-content: space-between;
+}
+
+.information h4{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+   
 }
