@@ -203,3 +203,69 @@ nav{
    display: flex;
    gap: 24px;
 }
+
+.resume{
+    width: 71%;
+    margin: 0 auto;
+   
+}
+
+.resume h3{
+     font-size: 35px;
+    font-weight: bold;
+   margin:130px auto 113px ;
+   color: #181818;
+   text-align: center;
+}
+
+.second-content {
+     display: flex;
+     justify-content: space-between;
+}
+
+.education, .experience{
+    width: 48%;
+}
+
+.education h2, .experience h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.education h5, .experience h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.education h6, .experience h6{
+      font-size: 20px;
+    font-weight: 600;
+    color: #6e6464;
+    margin-bottom: 20px;
+}
+
+.education p, .experience p{
+     font-size: 16px;
+    color: #6e6464;
+    margin-bottom: 30px;
+}
+
+.education hr, .experience hr{
+    max-width:558px ;
+    margin-bottom: 30px;
+    color: #a79f9f;
+}
+
+.download-button{
+    width: 71%;
+   margin: 50px auto 130px;
+   text-align: center;
+}
+
+.download-button .btn{
+    margin: 0 auto;
+    text-align: center;
+}
