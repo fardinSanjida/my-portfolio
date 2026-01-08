@@ -21,7 +21,7 @@
 header{ 
     background-color: #FFF8F3; 
     background: url(../images/developer.png), url(../images/header_bg.png); 
-    background-position: top left, right bottom;
+    background-position: 24px 38px, right bottom;
     background-repeat: no-repeat;
     /* 38px 71px 25px 24px */
 }
@@ -268,4 +268,63 @@ nav{
 .download-button .btn{
     margin: 0 auto;
     text-align: center;
+}
+
+footer{
+   background-color: #FFF8F3; 
+}
+
+.lets-conection{
+    width: 71%;
+    padding: 130px 230px 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-way{
+    max-width: 562px;
+}
+
+.second-way{
+    max-width:461px ;
+}
+
+.first-way h3, .second-way h3{
+   font-size: 35px;
+   font-weight: bold;
+   color: #181818;
+   text-align:left;
+   margin-bottom: 28px;
+}
+
+.first-way p{
+     font-size: 16px;
+    color: #6e6464;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.first-way div img{
+    margin-right: 24px;
+}
+
+.second-way input{
+     height: 64px;
+      width: 461px;
+     margin-bottom: 24px;
+     border: #ffffff;
+     border-radius: 5px;
+     padding-left: 30px;
+
+}
+
+.second-way textarea{
+     height: 180px;
+     width: 461px;
+     margin-bottom: 24px;
+     border: #ffffff;
+     border-radius: 5px;
+     padding-left: 30px;
+     padding-top: 18px;
+
 }
